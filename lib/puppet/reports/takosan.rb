@@ -6,9 +6,9 @@ Puppet::Reports.register_report(:takosan) do
   def process
     configdir = File.dirname(Puppet.settings[:config])
 
-    configfile = %w(takosan.yaml ikachan.yaml)
-      .map {|f| File.join(configdir, f) }
-      .find {|f| File.exists?(f) }
+    configfile = %w(takosan.yaml ikachan.yaml).
+      map {|f| File.join(configdir, f) }.
+      find {|f| File.exists?(f) }
 
     raise(Puppet::ParseError, "Slack(takosan) report config file #{configfile} not readable") unless configfile
 

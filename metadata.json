@@ -1,6 +1,6 @@
 {
   "name": "lamanotrama-report_takosan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "lamanotrama",
   "summary": "sending logs to takosan",
   "license": "Apache 2.0",
