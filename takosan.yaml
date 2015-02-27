@@ -1,4 +1,4 @@
-host: ikachan.example.jp
+host: takosan.example.jp
 port: 4444
 channels:
   - \#foo
