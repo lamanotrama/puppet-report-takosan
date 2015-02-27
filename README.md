@@ -1,3 +1,3 @@
-# puppet-report-ikachan
+# puppet-report-takosan
 
-This is the puppet module for sending logs to [ikachan](https://github.com/yappo/p5-App-Ikachan).
+This is the puppet module for sending logs to [takosan](https://github.com/kentaro/takosan).
